@@ -5,6 +5,7 @@ def roll_call_dwarves(name)
 end
 
 def summon_captain_planet(array)
+  new_arr = []
   i = 0 
   while i < array.length
     if array[i] === array[i].capitalize
