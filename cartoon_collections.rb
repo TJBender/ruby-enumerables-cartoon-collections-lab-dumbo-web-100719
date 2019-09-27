@@ -27,7 +27,6 @@ def find_the_cheese(cheeses)
     if cheeses.include?(cheese)
       puts cheese
     end
-    return nil
     end
   end
 end
