@@ -23,5 +23,5 @@ end
 
 def find_the_cheese(cheeses)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.each {|cheese|}
+  cheese_types.each do |cheese|
 end
