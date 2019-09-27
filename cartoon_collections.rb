@@ -9,7 +9,7 @@ def summon_captain_planet(array)
   i = 0 
   while i < array.length
     if array[i] === array[i].capitalize
-      puts array[i]
+      new_arr.push(array[i])
     end
   i+=1 
   end
